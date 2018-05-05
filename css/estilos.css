@@ -46,40 +46,26 @@ nav a:active{
   text-decoration: underline;
 }
 
-section div img{
- max-width: 100%;
- width: auto;
- height: auto;
+section{
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
-#imgppal{
-  background-color: red;
+section img{
+ height: 90%;
+}
+
+
+#imgcen{
+  width: 100%;
+  height: 500px;
+  background-color: #82c3a6;
 }
 
 #imgsec{
-  background-color: red;
-  margin: 1%;
-}
-
-.img1{
-  padding: 10%;
-}
-
-#imgsec{
-  background-color: red;
-  margin: 1%;
-}
-
-.img2{
-  max-width: 48%;
-  width: auto;
-  display: inline-block;
-  float: left;
-}
-
-.img3{
-  max-width: 48%;
-  width: auto;
-  display: inline-block;
-  float: right;
+  width: 100%;
+  height: 100px;
+  background-color: #d5c75f;
+  border: 1px;
 }
